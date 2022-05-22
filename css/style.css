@@ -57,7 +57,13 @@
 .header-contact:focus {
     color: #2196F3;}
 /* =======Header========= */
-
+/* ======Header2======== */
+.portfolio-hero-button:hover,
+.portfolio-hero-button:focus {
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+/* =========Header2=========== */
 /* =========Main=========== */
 .hero-title{
         font-weight: 900;
@@ -159,8 +165,4 @@
         text-align: center;
         letter-spacing: 0.03em;
 }
-.portfolio-hero-button:hover,
-.portfolio-hero-button:focus{
-    background-color: var(--accent-color);
-cursor: pointer;
-}
+
