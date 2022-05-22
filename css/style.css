@@ -1,7 +1,8 @@
 :root{
     --primery-font:Roboto ;
-    --logo-font:Raleway :
+    --logo-font:Raleway ;
     --accent-color: #2196F3;
+    --black-color: #212121;
 
 }
 
@@ -13,7 +14,7 @@
 }
 .body-font{
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--black-color)
 }
 
 /* =========Header=========== */
@@ -24,27 +25,25 @@
         line-height: 1.19;
         letter-spacing: 0.03em;
     
-        color: #2196F3;
+        color: var(--accent-color);
 }
 
 .logo {
-    color: black;
+    color: var(--black-color);
 }
 .logo-white{
     color: white;
 }
 .header-nav-link{
-    font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: #212121;
     
 }
 .header-nav-link:hover, 
 .header-nav-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .header-contact{
         font-weight: 500;
@@ -61,7 +60,6 @@
 
 /* =========Main=========== */
 .hero-title{
-    
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -72,7 +70,6 @@
         /* color: #FFFFFF */
 }
 .hero-button{
-    
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
@@ -86,80 +83,84 @@
 
 .hero-button:hover,
 .hero-button:focus{
-    background-color:#2196F3
+    background-color:var(--accent-color)
     
 }
 .hero-button{
     cursor: pointer;
 }
 .main-advantages{
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 .main-advant-text{
-   
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #757575;
 }
 .about-us-title{
-   
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
 }
 .team-title{
-    
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
 }
 .team-name{
-    
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
 }
 .about-team{
-
-        font-weight: 400;
         font-size: 16px;
         line-height:1.18;
         text-align: center;
         letter-spacing: 0.03em;
         color: #757575;
 }
+/* ===========Main-2========= */
+.content-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        ;
+}
+.content-text{
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
 /* =======Footer======== */
 .footer-adres{
-    font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         letter-spacing: 0.03em;
         /* color: #FFFFFF; */
 }
 .portfolio-hero-button{
-    font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+}
+.portfolio-hero-button:hover,
+.portfolio-hero-button:focus{
+    background-color: var(--accent-color);
+cursor: pointer;
 }
