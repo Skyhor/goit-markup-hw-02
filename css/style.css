@@ -14,9 +14,10 @@ list-style: none;
  .link{
     text-decoration: none;
 }
-.body-font{
+body{
     font-family: 'Roboto', sans-serif;
-    color: var(--black-color)
+color: var(--black-color)
+    
 }
 
 /* =========Header=========== */
@@ -61,10 +62,21 @@ list-style: none;
     color: var(--accent-color);}
 /* =======Header========= */
 /* ======Header2======== */
+.portfolio-hero-button{
+    cursor: pointer;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+    
+}
 .portfolio-hero-button:hover,
 .portfolio-hero-button:focus {
     background-color: var(--accent-color);
-    cursor: pointer;
+    
     color: var(--white-color);
 }
 /* =========Header2=========== */
@@ -167,7 +179,6 @@ list-style: none;
 }
 .footer-adres{
     font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
